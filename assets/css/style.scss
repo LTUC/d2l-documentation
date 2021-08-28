@@ -68,7 +68,10 @@ a:hover, a:active {
     text-decoration: underline;
 }
 
-header, .wrapper{
+header{
+  display: inline-block;
+}
+div.wrapper{
   display: inline-block;
 }
 
