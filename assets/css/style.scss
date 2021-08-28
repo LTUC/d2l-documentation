@@ -72,7 +72,7 @@ a:hover, a:active {
 @media print, screen and (max-width: 1060px) {
   header h1, section h1, footer h1 {
     white-space: normal;
-    overflow: auto;
+    // overflow: auto;
     text-overflow: initial;
   }
 }
