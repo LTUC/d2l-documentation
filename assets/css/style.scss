@@ -68,11 +68,15 @@ a:hover, a:active {
     text-decoration: underline;
 }
 
+header{
+  display: block;
+}
+
 /* Prevent truncated assignment titles */
 @media print, screen and (max-width: 1060px) {
   header h1, section h1, footer h1 {
     white-space: normal;
-    // overflow: auto;
+    overflow: auto;
     text-overflow: initial;
   }
 }
